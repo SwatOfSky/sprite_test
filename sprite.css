@@ -1,0 +1,24 @@
+.icon {
+	height: 16px;
+	width: 16px;
+	float: left;
+	background: url(sprite.gif)
+
+}
+.open .icon {
+	cursor: pointer;
+}
+.closed .icon{
+    cursor: pointer;
+    background-position-y: -16px;
+}
+.leaf .icon{
+	cursor: pointer;
+	background-position-y: -32px;
+}
+.text {
+	font-family: arial, helvetica, sans-serif;
+}
+.li {
+	list-style-type: none;
+}
